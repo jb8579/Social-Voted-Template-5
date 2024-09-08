@@ -799,10 +799,41 @@ h3.about-bonus{
   color: #000000 !important;
 }
 
+h5.headline-md.section-title.about-title {
+  color: #000000 !important;
+  margin-bottom: 24px;
+}
+
 h3.about-bonus > img{
   width: 40px;
   height: 40px;
   margin: 0px 4px;
+}
+
+.about-context.privacy-text > p > a {
+  text-decoration: underline;
+  display: unset;
+}
+
+.about-context.privacy-text > p {
+  padding-bottom: 40px;
+}
+
+.about-context.privacy-text > ul {
+  padding-bottom: 40px;
+}
+
+.about-context.privacy-text > ul > li {
+  list-style: circle;
+  position: relative;
+  left: 15px;
+  color: #4e4e4e !important;
+  font-size: 17px;
+  line-height: 32px;
+  font-weight: 400;
+  padding: 0px;
+  letter-spacing: 0.4px;
+  word-spacing: 1.4px;
 }
 /* --------------------------------
   About Section End

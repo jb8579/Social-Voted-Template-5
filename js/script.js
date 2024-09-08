@@ -151,3 +151,6 @@ const accordionInit = function (currentAccordion) {
 }
 
 for (let i = 0, len = accordions.length; i < len; i++) { accordionInit(accordions[i]); }
+
+
+
