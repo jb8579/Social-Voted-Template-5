@@ -153,6 +153,18 @@
     .about {
         padding: 70px 5px;
     }
+
+    .about-context.privacy-text > p {
+        font-size: 15px;
+        letter-spacing: 0.1px;
+        line-height: 26px;
+    }
+
+    .about-context.privacy-text > ul > li {
+        font-size: 15px;
+        letter-spacing: 0.1px;
+        line-height: 26px;
+    }
 }
 
 
@@ -275,6 +287,12 @@
 
 
 @media screen and (max-width: 400px){
+    h2.list-h2 {
+        font-size: 19px;
+        line-height: normal;
+        padding-bottom: 10px;
+    }
+
     button.list-btn.btn {
         padding: 12px 24px;
         font-size: 14px;
