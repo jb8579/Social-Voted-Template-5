@@ -749,6 +749,7 @@ button.list-btn.btn {
   background: url('../images/banner-3.jpg');
   background-repeat: no-repeat;
   background-position: center;
+  background-attachment: fixed;
   background-size: cover;
   height: 100%;
   width: 100%;
@@ -761,7 +762,7 @@ button.list-btn.btn {
 .about::before {
   content: '';
   position: absolute;
-  background-color: hsl(0deg 0% 98% / 94%);
+  background-color: hsl(0deg 0% 98% / 96%);
   left: 0;
   right: 0;
   top: 0;
