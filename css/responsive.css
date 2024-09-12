@@ -1,6 +1,6 @@
 @media only screen and (max-width: 600px) and (min-width: 300px){
     .hero {
-        --section-padding: 120px 64px;
+        --section-padding: 100px 64px;
     }
 
     img.home-img {
@@ -9,8 +9,11 @@
     }
 
     .hero .section-text {
-        margin-block: 12px 20px;
-        font-size: 16px;
+        display: none;
+    }
+
+    .hero .btn {
+        display: none;
     }
 
     .list-card-left {
@@ -164,6 +167,14 @@
         font-size: 15px;
         letter-spacing: 0.1px;
         line-height: 26px;
+    }
+
+    button.btn-icon.primary {
+        display: none;
+    }
+
+    button.nav-toggle-btn {
+        padding: 0px 12px;
     }
 }
 
